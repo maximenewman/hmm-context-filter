@@ -1,0 +1,25 @@
+{
+  "rules_tooltrace_holdout": {
+    "keep_p": 0.5957,
+    "keep_r": 0.997,
+    "keep_f1": 0.7458,
+    "acc": 0.5946
+  },
+  "parse_then_filter_safe": {
+    "json": 0.2555,
+    "xml": 0.2589,
+    "markdown": 0.5,
+    "logfmt": 0.3974,
+    "csv": 0.8566,
+    "yaml": 0.8984,
+    "prose": 0.7458
+  },
+  "cascade": {
+    "hmm_only": 0.6594827586206896,
+    "ppl_only": 0.5603448275862069,
+    "cascade": 0.45689655172413796,
+    "t_hmm": 0.02549433708190918,
+    "t_ppl": 14.72461223602295,
+    "t_cascade": 8.956000804901123
+  }
+}

@@ -29,11 +29,11 @@ def shannon_entropy(s: str) -> float:
     return -sum((c / n) * math.log2(c / n) for c in counts.values())
 
 
-def line_features(line: str, prev_line: str = "") -> list[float]:
+def line_features(line: str, prev_line: str = "", version: int = 2) -> list[float]:
     """Feature vector for one line. 12 dims, all float, roughly scaled."""
     n = len(line)
     if n == 0:
-        return [0.0] * 15
+        return [0.0] * (15 if version == 1 else 22)
     letters = sum(c.isalpha() for c in line)
     digits = sum(c.isdigit() for c in line)
     spaces = sum(c.isspace() for c in line)
@@ -60,7 +60,20 @@ def line_features(line: str, prev_line: str = "") -> list[float]:
         len(words) / max(n / 6.0, 1.0),   # 12 word density (prose ~1)
         (sum(word_lens) / max(len(word_lens), 1)) / 10.0,  # 13 avg word len
         1.0 if stripped.endswith((".", "?", "!", '"')) else 0.0,  # 14 sentence-final
-    ]
+    ] + _format_features(line, stripped, n)
+
+
+def _format_features(line: str, stripped: str, n: int) -> list[float]:
+    """v2: standardized-format structure. Tool-agnostic by design."""
+    import re as _re
+    json_struct = 1.0 if _re.match(r'^[\{\}\[\]],?$|^"[\w.-]+"\s*:', stripped) else 0.0
+    kv = 1.0 if _re.match(r'^[\w."-]+\s*[:=]\s*\S+', stripped) else 0.0
+    md = 1.0 if _re.match(r'^(#{1,6}\s|[-*>]\s|\||```|\[)!', stripped) else 0.0
+    tags = len(_re.findall(r"<[^>]+>", line))
+    quotes = line.count('"') / max(n, 1)
+    long_tok = 1.0 if any(len(t) >= 16 and t.isalnum() for t in stripped.split()) else 0.0
+    comment = 1.0 if stripped.startswith(("#", "//", "<!--", ";")) and not stripped.startswith("# ") else 0.0
+    return [json_struct, kv, md, min(tags, 4) / 4.0, quotes, long_tok, comment]
 
 
 FEATURE_NAMES = [
@@ -70,10 +83,11 @@ FEATURE_NAMES = [
 ]
 
 
-def featurize(lines: list[str]) -> "list[list[float]]":
+def featurize(lines: list[str], version: int = 2) -> "list[list[float]]":
     out = []
     prev = ""
     for ln in lines:
-        out.append(line_features(ln, prev))
+        f = line_features(ln, prev, version=version)
+        out.append(f if version == 2 else f[:15])
         prev = ln
     return out

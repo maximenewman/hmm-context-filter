@@ -1,0 +1,56 @@
+{
+  "hmm": {
+    "0.9": {
+      "evidence_retention": 0.7856,
+      "token_keep": 0.8206
+    },
+    "0.7": {
+      "evidence_retention": 0.645,
+      "token_keep": 0.6373
+    },
+    "0.5": {
+      "evidence_retention": 0.4868,
+      "token_keep": 0.4656
+    },
+    "0.3": {
+      "evidence_retention": 0.2671,
+      "token_keep": 0.2518
+    }
+  },
+  "perplexity": {
+    "0.9": {
+      "evidence_retention": 0.8278,
+      "token_keep": 0.8339
+    },
+    "0.7": {
+      "evidence_retention": 0.6907,
+      "token_keep": 0.6805
+    },
+    "0.5": {
+      "evidence_retention": 0.5483,
+      "token_keep": 0.5355
+    },
+    "0.3": {
+      "evidence_retention": 0.3445,
+      "token_keep": 0.3244
+    }
+  },
+  "random": {
+    "0.9": {
+      "evidence_retention": 0.8295,
+      "token_keep": 0.8235
+    },
+    "0.7": {
+      "evidence_retention": 0.696,
+      "token_keep": 0.6876
+    },
+    "0.5": {
+      "evidence_retention": 0.5589,
+      "token_keep": 0.545
+    },
+    "0.3": {
+      "evidence_retention": 0.3181,
+      "token_keep": 0.3276
+    }
+  }
+}

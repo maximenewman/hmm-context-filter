@@ -76,3 +76,87 @@ python3 benchmarks/run_all.py ppl-squad   # etc, per corpus
 
 Research prototype, built Nov 2026. Numbers are real and reproducible;
 claims are narrow on purpose.
+
+
+## Results (all reproducible from this repo)
+
+### Keep/drop classification (results/classification.json)
+
+| corpus | filter | keep-F1 | tokens kept | lines/sec |
+|---|---|---|---|---|
+| tool traces (random split) | HMM | 0.63 | 35% | 48,853 |
+| tool traces (random split) | logreg ablation | 0.70 | 22% | 58,526 |
+| tool traces (random split) | length heuristic | 0.50 | 73% | - |
+| tool traces (unseen families) | HMM | 0.10 | 18% | - |
+| tool traces (unseen families) | perplexity (distilgpt2) | 0.36 | 26% | 69 |
+| web pages (zero-shot) | HMM (tool-trained) | 0.34 | 20% | - |
+| web pages | HMM (multi-domain) | 0.82 | 24% | 37,398 |
+| web pages | perplexity (distilgpt2) | 0.61 | 61% | 1,862 |
+| SQuAD prose | any stylistic filter | ~random | - | - |
+
+### The generalization question, answered (results/lofo.json)
+
+User hypothesis: train on standardized formats (JSON, XML, markdown,
+logfmt, CSV, YAML, prose) instead of per-tool. Leave-one-format-out:
+
+| model | mean LOFO keep-F1 | note |
+|---|---|---|
+| HMM, base features | 0.487 | JSON 0.19, CSV 0.00 |
+| HMM, +7 format features | 0.504 | JSON 0.61, CSV still 0.00 |
+| logreg, +7 format features | 0.569 | JSON 0.75, CSV still 0.00 |
+| parse-then-filter (safe fallback) | 0.559 | CSV 0.86, nothing ever lost |
+
+Verdict: format-aware training helps when formats share structure (JSON
+jumped 0.19 -> 0.61), but a held-out format with no structural analogue
+(CSV data rows) still collapses. The robust answer is the user's second
+idea: parse first, then filter - detect the format, apply the per-format
+policy, and keep everything when the format is unknown. That trades
+compression for zero data loss on surprises, which is the right default.
+
+### Cascade and downstream (results/rules_cascade.json, results/qa_em.jsonl)
+
+- Rule-based hand filter (13 regexes, the thing an engineer writes today):
+  see results/rules_cascade.json. Cheap to write for known formats, blind
+  to everything else - exactly the trade-off this project quantifies.
+- Cascade HMM -> perplexity on SQuAD: retention@50% 0.457 vs ppl-only
+  0.560 vs hmm-only@70% 0.659. On clean prose the stage-0 errors dominate;
+  a cascade only pays on noisy streams where stage-0 recall is ~1.
+- Downstream QA (Qwen2.5-0.5B, 60 SQuAD paras): EM 0.55 full context,
+  0.25 at 70% keep, 0.18 at 30% keep. Filtering prose evidence destroys
+  reader accuracy faster than it saves tokens. Do not filter QA evidence
+  with a stylistic filter.
+
+### Speed
+
+~55k lines/sec/core (HMM) vs ~70 lines/sec (distilgpt2 perplexity) vs
+~$2-4 per 1M tokens (frontier LLM as filter). The HMM model file is 1.5 KB.
+
+## Honest positioning
+
+This is a learned, zero-cost **stage 0**: a bouncer that strips obvious
+noise from noisy tool streams before anything expensive runs. It is NOT an
+LLMLingua replacement - LLMLingua-2/EffComp do query-aware semantic
+compression of prose, which this structurally cannot do. The two compose:
+stage 0 (this) removes garbage at ~0 cost, stage 1 (neural) does semantic
+compression on what survives, on corpora where that pays.
+
+## Prior work
+
+- Conroy & O'Leary 2001 (HMM sentence selection for summarization) - the ancestor.
+- LLMLingua (arXiv 2310.05736): up to 20x compression, GSM8K/BBH/ShareGPT.
+- LLMLingua-2 (arXiv 2403.12968): 2x-5x compression, 3-6x faster than LLMLingua.
+- EffComp (arXiv 2611.02766): BERT reranker + RL/SFT selector for RAG QA.
+- TACO-RL 2024, Selective-Context 2023: RL / self-information compression.
+- Isthmos (hand rules), MCP+ (cheap-LLM extraction): practitioner points
+  in the cost/quality space; hand rules are baseline above, cheap-LLM
+  extraction is what provider_harness.py measures.
+
+## Not done yet / future work
+
+- CRF and distilled-BERT line classifiers (stronger learned baselines).
+- Loghub/Drain real-log corpus; MCP-Universe end-to-end replay
+  (task success, tokens saved p50/p90, expand rate) - needs real agent
+  sessions, which this sandbox does not have.
+- Provider comparison (Claude Opus 5.5 / GPT-5.1 / Gemini 3.1 Pro) is
+  wired in benchmarks/provider_harness.py, ~$15 for a full pass, waiting
+  on API keys and approval.

@@ -1,0 +1,330 @@
+{"doc": 0, "rate": 1.0, "em": 0.0, "ans": "NATO's strategic interests conflicted.", "gold": "to avoid being targeted by the boycott"}
+{"doc": 0, "rate": 0.7, "em": 0.0, "ans": "Economic interests.", "gold": "to avoid being targeted by the boycott"}
+{"doc": 0, "rate": 0.5, "em": 0.0, "ans": "Economic interests.", "gold": "to avoid being targeted by the boycott"}
+{"doc": 0, "rate": 0.3, "em": 0.0, "ans": "To avoid conflict", "gold": "to avoid being targeted by the boycott"}
+{"doc": 1, "rate": 1.0, "em": 0.0, "ans": "folk-metal", "gold": "folk-rock"}
+{"doc": 1, "rate": 0.7, "em": 0.0, "ans": "Black metal", "gold": "folk-rock"}
+{"doc": 1, "rate": 0.5, "em": 0.0, "ans": "Folk-metal", "gold": "folk-rock"}
+{"doc": 1, "rate": 0.3, "em": 0.0, "ans": "Folk-metal", "gold": "folk-rock"}
+{"doc": 2, "rate": 1.0, "em": 0.0, "ans": "cpDNA", "gold": "ctDNA, or cpDNA"}
+{"doc": 2, "rate": 0.7, "em": 0.0, "ans": "Plastome", "gold": "ctDNA, or cpDNA"}
+{"doc": 2, "rate": 0.5, "em": 0.0, "ans": "Plastome", "gold": "ctDNA, or cpDNA"}
+{"doc": 2, "rate": 0.3, "em": 0.0, "ans": "Chloroplast DNA", "gold": "ctDNA, or cpDNA"}
+{"doc": 3, "rate": 1.0, "em": 1.0, "ans": "Graduate and undergraduate students", "gold": "graduate and undergraduate students"}
+{"doc": 3, "rate": 0.7, "em": 1.0, "ans": "Graduate and undergraduate students", "gold": "graduate and undergraduate students"}
+{"doc": 3, "rate": 0.5, "em": 1.0, "ans": "Graduate and undergraduate students", "gold": "graduate and undergraduate students"}
+{"doc": 3, "rate": 0.3, "em": 1.0, "ans": "Graduate and undergraduate students", "gold": "graduate and undergraduate students"}
+{"doc": 4, "rate": 1.0, "em": 1.0, "ans": "unions", "gold": "unions"}
+{"doc": 4, "rate": 0.7, "em": 1.0, "ans": "Unions", "gold": "unions"}
+{"doc": 4, "rate": 0.5, "em": 0.0, "ans": "Private sector organizations", "gold": "unions"}
+{"doc": 4, "rate": 0.3, "em": 0.0, "ans": "Unemployment and underemployment organizations", "gold": "unions"}
+{"doc": 5, "rate": 1.0, "em": 1.0, "ans": "October 1973", "gold": "October 1973"}
+{"doc": 5, "rate": 0.7, "em": 0.0, "ans": "March", "gold": "October 1973"}
+{"doc": 5, "rate": 0.5, "em": 1.0, "ans": "1973", "gold": "October 1973"}
+{"doc": 5, "rate": 0.3, "em": 1.0, "ans": "1973", "gold": "October 1973"}
+{"doc": 6, "rate": 1.0, "em": 1.0, "ans": "Annual Conference Cabinet", "gold": "Annual Conference Cabinet"}
+{"doc": 6, "rate": 0.7, "em": 0.0, "ans": "Annual Conference's structure includes the Area Provost/Dean and several Distric", "gold": "Annual Conference Cabinet"}
+{"doc": 6, "rate": 0.5, "em": 0.0, "ans": "Annual Conference's structure includes the Area Provost/Dean and several Distric", "gold": "Annual Conference Cabinet"}
+{"doc": 6, "rate": 0.3, "em": 0.0, "ans": "Annual Conference area structure", "gold": "Annual Conference Cabinet"}
+{"doc": 7, "rate": 1.0, "em": 1.0, "ans": "pre-Columbian era", "gold": "the pre-Columbian era"}
+{"doc": 7, "rate": 0.7, "em": 1.0, "ans": "pre-Columbian era", "gold": "the pre-Columbian era"}
+{"doc": 7, "rate": 0.5, "em": 1.0, "ans": "pre-Columbian", "gold": "the pre-Columbian era"}
+{"doc": 7, "rate": 0.3, "em": 1.0, "ans": "pre-Columbian era", "gold": "the pre-Columbian era"}
+{"doc": 8, "rate": 1.0, "em": 0.0, "ans": "Louis Adamic", "gold": "New York City mayor Fiorello La Guardia"}
+{"doc": 8, "rate": 0.7, "em": 0.0, "ans": "A prominent priest", "gold": "New York City mayor Fiorello La Guardia"}
+{"doc": 8, "rate": 0.5, "em": 0.0, "ans": "Tesla's wife", "gold": "New York City mayor Fiorello La Guardia"}
+{"doc": 8, "rate": 0.3, "em": 0.0, "ans": "Tesla's family", "gold": "New York City mayor Fiorello La Guardia"}
+{"doc": 9, "rate": 1.0, "em": 1.0, "ans": "Oceanic with mild winters and cool summers.", "gold": "oceanic"}
+{"doc": 9, "rate": 0.7, "em": 0.0, "ans": "Mild winters and cool summers", "gold": "oceanic"}
+{"doc": 9, "rate": 0.5, "em": 0.0, "ans": "Mild winters and cool summers", "gold": "oceanic"}
+{"doc": 9, "rate": 0.3, "em": 0.0, "ans": "Dry and cold", "gold": "oceanic"}
+{"doc": 10, "rate": 1.0, "em": 1.0, "ans": "Richard Allen", "gold": "Richard Allen and Absalom Jones"}
+{"doc": 10, "rate": 0.7, "em": 0.0, "ans": "Abolitionist", "gold": "Richard Allen and Absalom Jones"}
+{"doc": 10, "rate": 0.5, "em": 0.0, "ans": "Abolitionist", "gold": "Richard Allen and Absalom Jones"}
+{"doc": 10, "rate": 0.3, "em": 0.0, "ans": "Abraham Lincoln", "gold": "Richard Allen and Absalom Jones"}
+{"doc": 11, "rate": 1.0, "em": 1.0, "ans": "Jochi", "gold": "Jochi"}
+{"doc": 11, "rate": 0.7, "em": 0.0, "ans": "Toghrul refused to give his daughter in marriage to Jamukha, angering Tem\u00fcjin.", "gold": "Jochi"}
+{"doc": 11, "rate": 0.5, "em": 0.0, "ans": "Toghrul refused to give his daughter in marriage to Jamukha, angering Tem\u00fcjin.", "gold": "Jochi"}
+{"doc": 11, "rate": 0.3, "em": 0.0, "ans": "Toghrul refused to give his daughter in marriage to Tem\u00fcjin, angering him.", "gold": "Jochi"}
+{"doc": 12, "rate": 1.0, "em": 1.0, "ans": "1770", "gold": "1770"}
+{"doc": 12, "rate": 0.7, "em": 0.0, "ans": "1879", "gold": "1770"}
+{"doc": 12, "rate": 0.5, "em": 0.0, "ans": "1923", "gold": "1770"}
+{"doc": 12, "rate": 0.3, "em": 0.0, "ans": "1950", "gold": "1770"}
+{"doc": 13, "rate": 1.0, "em": 1.0, "ans": "approximately 80,000", "gold": "80,000"}
+{"doc": 13, "rate": 0.7, "em": 0.0, "ans": "Many", "gold": "80,000"}
+{"doc": 13, "rate": 0.5, "em": 0.0, "ans": "Many", "gold": "80,000"}
+{"doc": 13, "rate": 0.3, "em": 0.0, "ans": "10", "gold": "80,000"}
+{"doc": 14, "rate": 1.0, "em": 1.0, "ans": "three", "gold": "on three grounds"}
+{"doc": 14, "rate": 0.7, "em": 0.0, "ans": "Two", "gold": "on three grounds"}
+{"doc": 14, "rate": 0.5, "em": 0.0, "ans": "Two", "gold": "on three grounds"}
+{"doc": 14, "rate": 0.3, "em": 0.0, "ans": "Two", "gold": "on three grounds"}
+{"doc": 15, "rate": 1.0, "em": 1.0, "ans": "Geordie", "gold": "Geordie"}
+{"doc": 15, "rate": 0.7, "em": 1.0, "ans": "Geordie", "gold": "Geordie"}
+{"doc": 15, "rate": 0.5, "em": 1.0, "ans": "Geordie", "gold": "Geordie"}
+{"doc": 15, "rate": 0.3, "em": 1.0, "ans": "Geordie", "gold": "Geordie"}
+{"doc": 16, "rate": 1.0, "em": 0.0, "ans": "to remind their countrymen of injustice", "gold": "a way of continuing their protest"}
+{"doc": 16, "rate": 0.7, "em": 0.0, "ans": "To maintain the spirit of protest", "gold": "a way of continuing their protest"}
+{"doc": 16, "rate": 0.5, "em": 0.0, "ans": "To maintain the spirit of protest", "gold": "a way of continuing their protest"}
+{"doc": 16, "rate": 0.3, "em": 0.0, "ans": "Forced confessions", "gold": "a way of continuing their protest"}
+{"doc": 17, "rate": 1.0, "em": 0.0, "ans": "June 1526", "gold": "The Black Cloister"}
+{"doc": 17, "rate": 0.7, "em": 0.0, "ans": "December 1527", "gold": "The Black Cloister"}
+{"doc": 17, "rate": 0.5, "em": 0.0, "ans": "1526", "gold": "The Black Cloister"}
+{"doc": 17, "rate": 0.3, "em": 0.0, "ans": "1635-1648", "gold": "The Black Cloister"}
+{"doc": 18, "rate": 1.0, "em": 0.0, "ans": "First appearance of an SNP majority government.", "gold": "a party has commanded a parliamentary majority"}
+{"doc": 18, "rate": 0.7, "em": 0.0, "ans": "The SNP's first majority government occurred when they won 16 seats from Labour.", "gold": "a party has commanded a parliamentary majority"}
+{"doc": 18, "rate": 0.5, "em": 0.0, "ans": "The SNP's first major victory occurred when they won 8 seats from the Liberal De", "gold": "a party has commanded a parliamentary majority"}
+{"doc": 18, "rate": 0.3, "em": 0.0, "ans": "The SNP became the first major political party to win an outright majority gover", "gold": "a party has commanded a parliamentary majority"}
+{"doc": 19, "rate": 1.0, "em": 0.0, "ans": "Packet Switching Methodology", "gold": "independently developed the same message routing methodology as developed by Bar"}
+{"doc": 19, "rate": 0.7, "em": 0.0, "ans": "Packet Switching Network", "gold": "independently developed the same message routing methodology as developed by Bar"}
+{"doc": 19, "rate": 0.5, "em": 0.0, "ans": "Packet Switching Network", "gold": "independently developed the same message routing methodology as developed by Bar"}
+{"doc": 19, "rate": 0.3, "em": 0.0, "ans": "ARPANET", "gold": "independently developed the same message routing methodology as developed by Bar"}
+{"doc": 20, "rate": 1.0, "em": 0.0, "ans": "algae", "gold": "cryptomonads"}
+{"doc": 20, "rate": 0.7, "em": 0.0, "ans": "algae", "gold": "cryptomonads"}
+{"doc": 20, "rate": 0.5, "em": 0.0, "ans": "algae", "gold": "cryptomonads"}
+{"doc": 20, "rate": 0.3, "em": 0.0, "ans": "algae", "gold": "cryptomonads"}
+{"doc": 21, "rate": 1.0, "em": 0.0, "ans": "early 1520s", "gold": "early 1526"}
+{"doc": 21, "rate": 0.7, "em": 0.0, "ans": "1520", "gold": "early 1526"}
+{"doc": 21, "rate": 0.5, "em": 0.0, "ans": "1520", "gold": "early 1526"}
+{"doc": 21, "rate": 0.3, "em": 0.0, "ans": "1520", "gold": "early 1526"}
+{"doc": 22, "rate": 1.0, "em": 1.0, "ans": "pharma", "gold": "its root word pharma"}
+{"doc": 22, "rate": 0.7, "em": 1.0, "ans": "pharmakos", "gold": "its root word pharma"}
+{"doc": 22, "rate": 0.5, "em": 1.0, "ans": "pharmakos", "gold": "its root word pharma"}
+{"doc": 22, "rate": 0.3, "em": 0.0, "ans": "Sorcery", "gold": "its root word pharma"}
+{"doc": 23, "rate": 1.0, "em": 1.0, "ans": "1928", "gold": "1928"}
+{"doc": 23, "rate": 0.7, "em": 0.0, "ans": "1924", "gold": "1928"}
+{"doc": 23, "rate": 0.5, "em": 0.0, "ans": "1924", "gold": "1928"}
+{"doc": 23, "rate": 0.3, "em": 0.0, "ans": "1924", "gold": "1928"}
+{"doc": 24, "rate": 1.0, "em": 0.0, "ans": "ABC pioneered a balanced approach to programming, presenting both film and TV co", "gold": "counterprogramming"}
+{"doc": 24, "rate": 0.7, "em": 0.0, "ans": "ABC and Goldenson pioneered a balanced approach to television programming that i", "gold": "counterprogramming"}
+{"doc": 24, "rate": 0.5, "em": 0.0, "ans": "ABC and Goldenson pioneered a balanced approach to entertainment that included b", "gold": "counterprogramming"}
+{"doc": 24, "rate": 0.3, "em": 0.0, "ans": "ABC and Goldenson pioneered a \"shorter, more engaging\" approach to broadcasting.", "gold": "counterprogramming"}
+{"doc": 25, "rate": 1.0, "em": 0.0, "ans": "Type II secretion system", "gold": "enzymes"}
+{"doc": 25, "rate": 0.7, "em": 1.0, "ans": "Enzymes", "gold": "enzymes"}
+{"doc": 25, "rate": 0.5, "em": 1.0, "ans": "Enzymes", "gold": "enzymes"}
+{"doc": 25, "rate": 0.3, "em": 0.0, "ans": "Type III secretory proteins", "gold": "enzymes"}
+{"doc": 26, "rate": 1.0, "em": 1.0, "ans": "Chinese", "gold": "the Chinese"}
+{"doc": 26, "rate": 0.7, "em": 1.0, "ans": "Chinese", "gold": "the Chinese"}
+{"doc": 26, "rate": 0.5, "em": 1.0, "ans": "Chinese", "gold": "the Chinese"}
+{"doc": 26, "rate": 0.3, "em": 1.0, "ans": "Chinese", "gold": "the Chinese"}
+{"doc": 27, "rate": 1.0, "em": 1.0, "ans": "1523", "gold": "1523"}
+{"doc": 27, "rate": 0.7, "em": 0.0, "ans": "1609", "gold": "1523"}
+{"doc": 27, "rate": 0.5, "em": 0.0, "ans": "1609", "gold": "1523"}
+{"doc": 27, "rate": 0.3, "em": 0.0, "ans": "1520", "gold": "1523"}
+{"doc": 28, "rate": 1.0, "em": 1.0, "ans": "Lens-shaped", "gold": "lens-shaped"}
+{"doc": 28, "rate": 0.7, "em": 0.0, "ans": "cup", "gold": "lens-shaped"}
+{"doc": 28, "rate": 0.5, "em": 0.0, "ans": "Star-shaped", "gold": "lens-shaped"}
+{"doc": 28, "rate": 0.3, "em": 0.0, "ans": "Half-circular", "gold": "lens-shaped"}
+{"doc": 29, "rate": 1.0, "em": 1.0, "ans": "Han Chinese", "gold": "Han Chinese"}
+{"doc": 29, "rate": 0.7, "em": 1.0, "ans": "Han Chinese", "gold": "Han Chinese"}
+{"doc": 29, "rate": 0.5, "em": 1.0, "ans": "Han Chinese", "gold": "Han Chinese"}
+{"doc": 29, "rate": 0.3, "em": 0.0, "ans": "Mongol", "gold": "Han Chinese"}
+{"doc": 30, "rate": 1.0, "em": 1.0, "ans": "Widener Library", "gold": "Widener Library"}
+{"doc": 30, "rate": 0.7, "em": 0.0, "ans": "Harvard-Yenching Library", "gold": "Widener Library"}
+{"doc": 30, "rate": 0.5, "em": 0.0, "ans": "Harvard-Yenching Library", "gold": "Widener Library"}
+{"doc": 30, "rate": 0.3, "em": 0.0, "ans": "Harvard University Library", "gold": "Widener Library"}
+{"doc": 31, "rate": 1.0, "em": 0.0, "ans": "Chloroplasts reproduce through mitosis.", "gold": "pinch in two"}
+{"doc": 31, "rate": 0.7, "em": 0.0, "ans": "mitosis", "gold": "pinch in two"}
+{"doc": 31, "rate": 0.5, "em": 0.0, "ans": "Through mitosis.", "gold": "pinch in two"}
+{"doc": 31, "rate": 0.3, "em": 0.0, "ans": "Mitosis", "gold": "pinch in two"}
+{"doc": 32, "rate": 1.0, "em": 0.0, "ans": "Han Chinese and Khitans", "gold": "Central Asian Muslims"}
+{"doc": 32, "rate": 0.7, "em": 0.0, "ans": "Chinese soldiers", "gold": "Central Asian Muslims"}
+{"doc": 32, "rate": 0.5, "em": 0.0, "ans": "Chinese soldiers", "gold": "Central Asian Muslims"}
+{"doc": 32, "rate": 0.3, "em": 0.0, "ans": "Mongols brought artisans and farmers to China as administrators.", "gold": "Central Asian Muslims"}
+{"doc": 33, "rate": 1.0, "em": 1.0, "ans": "1859", "gold": "1859"}
+{"doc": 33, "rate": 0.7, "em": 1.0, "ans": "1859", "gold": "1859"}
+{"doc": 33, "rate": 0.5, "em": 1.0, "ans": "1859", "gold": "1859"}
+{"doc": 33, "rate": 0.3, "em": 1.0, "ans": "1859", "gold": "1859"}
+{"doc": 34, "rate": 1.0, "em": 0.0, "ans": "Treaty on the Functioning of the European Union", "gold": "the Treaty on the Functioning of the European Union"}
+{"doc": 34, "rate": 0.7, "em": 0.0, "ans": "Treaty of Rome", "gold": "the Treaty on the Functioning of the European Union"}
+{"doc": 34, "rate": 0.5, "em": 0.0, "ans": "Treaty of Rome", "gold": "the Treaty on the Functioning of the European Union"}
+{"doc": 34, "rate": 0.3, "em": 0.0, "ans": "European Union", "gold": "the Treaty on the Functioning of the European Union"}
+{"doc": 35, "rate": 1.0, "em": 0.0, "ans": "Direct patient care, optimizing medication use, promoting health.", "gold": "optimizes the use of medication and promotes health, wellness, and disease preve"}
+{"doc": 35, "rate": 0.7, "em": 0.0, "ans": "Pharmacists provide medication guidance, consultation, and education to patients", "gold": "optimizes the use of medication and promotes health, wellness, and disease preve"}
+{"doc": 35, "rate": 0.5, "em": 0.0, "ans": "Pharmacists provide medication guidance, consultation, and education to patients", "gold": "optimizes the use of medication and promotes health, wellness, and disease preve"}
+{"doc": 35, "rate": 0.3, "em": 0.0, "ans": "Interdisciplinary patient care, drug product selection, and clinical decision-ma", "gold": "optimizes the use of medication and promotes health, wellness, and disease preve"}
+{"doc": 36, "rate": 1.0, "em": 0.0, "ans": "Parasitic, nonphotosynthetic, green algae", "gold": "helicosproidia"}
+{"doc": 36, "rate": 0.7, "em": 0.0, "ans": "Similar to other apicomplexans.", "gold": "helicosproidia"}
+{"doc": 36, "rate": 0.5, "em": 0.0, "ans": "Plasmodium and its malaria parasite", "gold": "helicosproidia"}
+{"doc": 36, "rate": 0.3, "em": 0.0, "ans": "Apicomplexans share characteristics with green algae and chromalveolates.", "gold": "helicosproidia"}
+{"doc": 37, "rate": 1.0, "em": 1.0, "ans": "Practical Carnot cycle", "gold": "practical Carnot cycle"}
+{"doc": 37, "rate": 0.7, "em": 0.0, "ans": "Isentropic cycle", "gold": "practical Carnot cycle"}
+{"doc": 37, "rate": 0.5, "em": 0.0, "ans": "Isentropic cycle", "gold": "practical Carnot cycle"}
+{"doc": 37, "rate": 0.3, "em": 0.0, "ans": "Thermal expansion cycle", "gold": "practical Carnot cycle"}
+{"doc": 38, "rate": 1.0, "em": 1.0, "ans": "Warsaw known as Warszawa.", "gold": "Warszawa"}
+{"doc": 38, "rate": 0.7, "em": 1.0, "ans": "Warszawa", "gold": "Warszawa"}
+{"doc": 38, "rate": 0.5, "em": 0.0, "ans": "Polish capital", "gold": "Warszawa"}
+{"doc": 38, "rate": 0.3, "em": 1.0, "ans": "Warszawa", "gold": "Warszawa"}
+{"doc": 39, "rate": 1.0, "em": 1.0, "ans": "11.4 million", "gold": "11.4 million"}
+{"doc": 39, "rate": 0.7, "em": 0.0, "ans": "about 3 million", "gold": "11.4 million"}
+{"doc": 39, "rate": 0.5, "em": 0.0, "ans": "about 3 million", "gold": "11.4 million"}
+{"doc": 39, "rate": 0.3, "em": 0.0, "ans": "700,000", "gold": "11.4 million"}
+{"doc": 40, "rate": 1.0, "em": 0.0, "ans": "Montr\u00e9al Protocol", "gold": "the Montreal Protocol"}
+{"doc": 40, "rate": 0.7, "em": 0.0, "ans": "Ozone depletion", "gold": "the Montreal Protocol"}
+{"doc": 40, "rate": 0.5, "em": 0.0, "ans": "Ozone depletion", "gold": "the Montreal Protocol"}
+{"doc": 40, "rate": 0.3, "em": 1.0, "ans": "The Montreal Protocol", "gold": "the Montreal Protocol"}
+{"doc": 41, "rate": 1.0, "em": 0.0, "ans": "US$23", "gold": "fifty thousand dollars"}
+{"doc": 41, "rate": 0.7, "em": 1.0, "ans": "Fifty thousand dollars", "gold": "fifty thousand dollars"}
+{"doc": 41, "rate": 0.5, "em": 1.0, "ans": "Fifty thousand dollars", "gold": "fifty thousand dollars"}
+{"doc": 41, "rate": 0.3, "em": 0.0, "ans": "$20 million", "gold": "fifty thousand dollars"}
+{"doc": 42, "rate": 1.0, "em": 0.0, "ans": "4:1", "gold": "about four men attending Harvard College for every woman studying at Radcliffe"}
+{"doc": 42, "rate": 0.7, "em": 0.0, "ans": "4:1", "gold": "about four men attending Harvard College for every woman studying at Radcliffe"}
+{"doc": 42, "rate": 0.5, "em": 0.0, "ans": "4:1", "gold": "about four men attending Harvard College for every woman studying at Radcliffe"}
+{"doc": 42, "rate": 0.3, "em": 0.0, "ans": "4:1", "gold": "about four men attending Harvard College for every woman studying at Radcliffe"}
+{"doc": 43, "rate": 1.0, "em": 0.0, "ans": "Increased role in patient care.", "gold": "expected to become more integral within the health care system"}
+{"doc": 43, "rate": 0.7, "em": 0.0, "ans": "Pharmacists' role in medicine will evolve significantly.", "gold": "expected to become more integral within the health care system"}
+{"doc": 43, "rate": 0.5, "em": 0.0, "ans": "Pharmacists' role in medicine will evolve significantly.", "gold": "expected to become more integral within the health care system"}
+{"doc": 43, "rate": 0.3, "em": 0.0, "ans": "Pharmaceuticals' role in healthcare will evolve significantly.", "gold": "expected to become more integral within the health care system"}
+{"doc": 44, "rate": 1.0, "em": 0.0, "ans": "Bronze Age Agriculture", "gold": "3000 yr BP"}
+{"doc": 44, "rate": 0.7, "em": 0.0, "ans": "Roman times onward", "gold": "3000 yr BP"}
+{"doc": 44, "rate": 0.5, "em": 0.0, "ans": "Roman times onward", "gold": "3000 yr BP"}
+{"doc": 44, "rate": 0.3, "em": 0.0, "ans": "Roman times onward", "gold": "3000 yr BP"}
+{"doc": 45, "rate": 1.0, "em": 0.0, "ans": "Native Chinese dynasty", "gold": "the Privy Council"}
+{"doc": 45, "rate": 0.7, "em": 0.0, "ans": "Native Chinese dynasties", "gold": "the Privy Council"}
+{"doc": 45, "rate": 0.5, "em": 0.0, "ans": "Native Chinese dynasty", "gold": "the Privy Council"}
+{"doc": 45, "rate": 0.3, "em": 0.0, "ans": "Mongols had military control during the Yuan.", "gold": "the Privy Council"}
+{"doc": 46, "rate": 1.0, "em": 1.0, "ans": "Warszawa", "gold": "Warszawa"}
+{"doc": 46, "rate": 0.7, "em": 0.0, "ans": "Warsaw's name in the Polish language is Miasto Sto\u017cczego Warszawy.", "gold": "Warszawa"}
+{"doc": 46, "rate": 0.5, "em": 0.0, "ans": "Miasto sto\u017ccze\u0144 Warszawy", "gold": "Warszawa"}
+{"doc": 46, "rate": 0.3, "em": 0.0, "ans": "Warsaw", "gold": "Warszawa"}
+{"doc": 47, "rate": 1.0, "em": 1.0, "ans": "1788", "gold": "1788"}
+{"doc": 47, "rate": 0.7, "em": 0.0, "ans": "October 1803", "gold": "1788"}
+{"doc": 47, "rate": 0.5, "em": 0.0, "ans": "October 1803", "gold": "1788"}
+{"doc": 47, "rate": 0.3, "em": 0.0, "ans": "1825", "gold": "1788"}
+{"doc": 48, "rate": 1.0, "em": 1.0, "ans": "William the Conqueror", "gold": "William the Conqueror"}
+{"doc": 48, "rate": 0.7, "em": 0.0, "ans": "Richard I of Normandy", "gold": "William the Conqueror"}
+{"doc": 48, "rate": 0.5, "em": 0.0, "ans": "Richard I of Normandy", "gold": "William the Conqueror"}
+{"doc": 48, "rate": 0.3, "em": 0.0, "ans": "Richard I of Normandy", "gold": "William the Conqueror"}
+{"doc": 49, "rate": 1.0, "em": 1.0, "ans": "forced Tesla out", "gold": "forced Tesla out"}
+{"doc": 49, "rate": 0.7, "em": 0.0, "ans": "forced him out", "gold": "forced Tesla out"}
+{"doc": 49, "rate": 0.5, "em": 0.0, "ans": "forced him out", "gold": "forced Tesla out"}
+{"doc": 49, "rate": 0.3, "em": 0.0, "ans": "forced out", "gold": "forced Tesla out"}
+{"doc": 50, "rate": 1.0, "em": 1.0, "ans": "January 1519", "gold": "January 1519"}
+{"doc": 50, "rate": 0.7, "em": 1.0, "ans": "June and July 1519", "gold": "January 1519"}
+{"doc": 50, "rate": 0.5, "em": 0.0, "ans": "1520", "gold": "January 1519"}
+{"doc": 50, "rate": 0.3, "em": 0.0, "ans": "1648", "gold": "January 1519"}
+{"doc": 51, "rate": 1.0, "em": 0.0, "ans": "Hydroelectric stations and geothermal facilities.", "gold": "hydroelectric stations at dams"}
+{"doc": 51, "rate": 0.7, "em": 0.0, "ans": "Petroleum-fired plant", "gold": "hydroelectric stations at dams"}
+{"doc": 51, "rate": 0.5, "em": 0.0, "ans": "Petroleum-fired plant", "gold": "hydroelectric stations at dams"}
+{"doc": 51, "rate": 0.3, "em": 0.0, "ans": "Kenya's main source of electricity comes from geothermal facilities at Olkaria n", "gold": "hydroelectric stations at dams"}
+{"doc": 52, "rate": 1.0, "em": 0.0, "ans": "Main Glass Gallery", "gold": "main silverware gallery"}
+{"doc": 52, "rate": 0.7, "em": 0.0, "ans": "British Galleries", "gold": "main silverware gallery"}
+{"doc": 52, "rate": 0.5, "em": 0.0, "ans": "Sculpture Gallery", "gold": "main silverware gallery"}
+{"doc": 52, "rate": 0.3, "em": 0.0, "ans": "The sculpture galleries were redesigned in the 1990s and later improved in 2002.", "gold": "main silverware gallery"}
+{"doc": 53, "rate": 1.0, "em": 0.0, "ans": "The 1965-66 season", "gold": "1965\u201366 season"}
+{"doc": 53, "rate": 0.7, "em": 0.0, "ans": "1980-81", "gold": "1965\u201366 season"}
+{"doc": 53, "rate": 0.5, "em": 0.0, "ans": "Season 10", "gold": "1965\u201366 season"}
+{"doc": 53, "rate": 0.3, "em": 0.0, "ans": "Season 10", "gold": "1965\u201366 season"}
+{"doc": 54, "rate": 1.0, "em": 1.0, "ans": "Duisburg", "gold": "Duisburg"}
+{"doc": 54, "rate": 0.7, "em": 1.0, "ans": "Duisburg", "gold": "Duisburg"}
+{"doc": 54, "rate": 0.5, "em": 1.0, "ans": "Duisburg", "gold": "Duisburg"}
+{"doc": 54, "rate": 0.3, "em": 1.0, "ans": "Duisburg", "gold": "Duisburg"}
+{"doc": 55, "rate": 1.0, "em": 0.0, "ans": "The Supreme Court", "gold": "U.S. Supreme Court"}
+{"doc": 55, "rate": 0.7, "em": 0.0, "ans": "ABC", "gold": "U.S. Supreme Court"}
+{"doc": 55, "rate": 0.5, "em": 0.0, "ans": "The Supreme Court", "gold": "U.S. Supreme Court"}
+{"doc": 55, "rate": 0.3, "em": 0.0, "ans": "Paramount Pictures", "gold": "U.S. Supreme Court"}
+{"doc": 56, "rate": 1.0, "em": 1.0, "ans": "The Conservatives.", "gold": "the Conservatives"}
+{"doc": 56, "rate": 0.7, "em": 0.0, "ans": "Edinburgh Pentlands", "gold": "the Conservatives"}
+{"doc": 56, "rate": 0.5, "em": 0.0, "ans": "The loss of Edinburgh Pentlands really disappointed Cameron the most.", "gold": "the Conservatives"}
+{"doc": 56, "rate": 0.3, "em": 0.0, "ans": "The loss of Edinburgh Pentlands really disappointed the Scottish Parliament most", "gold": "the Conservatives"}
+{"doc": 57, "rate": 1.0, "em": 1.0, "ans": "Non-native Chinese", "gold": "non-native Chinese people"}
+{"doc": 57, "rate": 0.7, "em": 0.0, "ans": "Foreign domination", "gold": "non-native Chinese people"}
+{"doc": 57, "rate": 0.5, "em": 0.0, "ans": "Foreign domination", "gold": "non-native Chinese people"}
+{"doc": 57, "rate": 0.3, "em": 0.0, "ans": "Yuan was the first time all of China was ruled by the Mongols.", "gold": "non-native Chinese people"}
+{"doc": 58, "rate": 1.0, "em": 1.0, "ans": "Mike Carey", "gold": "Mike Carey"}
+{"doc": 58, "rate": 0.7, "em": 1.0, "ans": "Mike Carey", "gold": "Mike Carey"}
+{"doc": 58, "rate": 0.5, "em": 1.0, "ans": "Mike Carey", "gold": "Mike Carey"}
+{"doc": 58, "rate": 0.3, "em": 1.0, "ans": "Mike Carey", "gold": "Mike Carey"}
+{"doc": 59, "rate": 1.0, "em": 1.0, "ans": "Dr. George E. Mueller", "gold": "Dr. George E. Mueller"}
+{"doc": 59, "rate": 0.7, "em": 1.0, "ans": "George E. Mueller", "gold": "Dr. George E. Mueller"}
+{"doc": 59, "rate": 0.5, "em": 1.0, "ans": "Webb recruited George E. Mueller for better project management.", "gold": "Dr. George E. Mueller"}
+{"doc": 59, "rate": 0.3, "em": 1.0, "ans": "George E. Mueller", "gold": "Dr. George E. Mueller"}
+{"doc": 0, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "NATO's strategic interests conflicted with their economic interests.", "gold": "to avoid being targeted by the boycott"}
+{"doc": 0, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Economic interests.", "gold": "to avoid being targeted by the boycott"}
+{"doc": 0, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Economic interests.", "gold": "to avoid being targeted by the boycott"}
+{"doc": 1, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "folk-metal", "gold": "folk-rock"}
+{"doc": 1, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Black metal", "gold": "folk-rock"}
+{"doc": 1, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Black metal", "gold": "folk-rock"}
+{"doc": 2, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "cpDNA", "gold": "ctDNA, or cpDNA"}
+{"doc": 2, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Plastome", "gold": "ctDNA, or cpDNA"}
+{"doc": 2, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Plastome", "gold": "ctDNA, or cpDNA"}
+{"doc": 3, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Graduate and undergraduate students", "gold": "graduate and undergraduate students"}
+{"doc": 3, "rate": 0.5, "filter": "random", "em": 1.0, "ans": "Graduate and undergraduate students", "gold": "graduate and undergraduate students"}
+{"doc": 3, "rate": 0.3, "filter": "random", "em": 1.0, "ans": "Graduate and undergraduate students", "gold": "graduate and undergraduate students"}
+{"doc": 4, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "unions", "gold": "unions"}
+{"doc": 4, "rate": 0.5, "filter": "random", "em": 1.0, "ans": "Unions", "gold": "unions"}
+{"doc": 4, "rate": 0.3, "filter": "random", "em": 1.0, "ans": "Unions", "gold": "unions"}
+{"doc": 5, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "October 1973", "gold": "October 1973"}
+{"doc": 5, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "March", "gold": "October 1973"}
+{"doc": 5, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "March", "gold": "October 1973"}
+{"doc": 6, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "Area Council", "gold": "Annual Conference Cabinet"}
+{"doc": 6, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Annual Conference's structure includes the Area Provost/Dean and several Distric", "gold": "Annual Conference Cabinet"}
+{"doc": 6, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Annual Conference's structure includes the Area Provost/Dean and several Distric", "gold": "Annual Conference Cabinet"}
+{"doc": 7, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "Renaissance", "gold": "the pre-Columbian era"}
+{"doc": 7, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Colonial Age", "gold": "the pre-Columbian era"}
+{"doc": 7, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Colonial Age", "gold": "the pre-Columbian era"}
+{"doc": 8, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "Louis Adamic", "gold": "New York City mayor Fiorello La Guardia"}
+{"doc": 8, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "A prominent priest", "gold": "New York City mayor Fiorello La Guardia"}
+{"doc": 8, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "A prominent priest", "gold": "New York City mayor Fiorello La Guardia"}
+{"doc": 9, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Oceanic with mild winters and cool summers.", "gold": "oceanic"}
+{"doc": 9, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Mild winters and cool summers", "gold": "oceanic"}
+{"doc": 9, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Mild winters and cool summers", "gold": "oceanic"}
+{"doc": 10, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Richard Allen", "gold": "Richard Allen and Absalom Jones"}
+{"doc": 10, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Allen", "gold": "Richard Allen and Absalom Jones"}
+{"doc": 10, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Allen", "gold": "Richard Allen and Absalom Jones"}
+{"doc": 11, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Jochi", "gold": "Jochi"}
+{"doc": 11, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Jamukha", "gold": "Jochi"}
+{"doc": 11, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Jamukha", "gold": "Jochi"}
+{"doc": 12, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "1770", "gold": "1770"}
+{"doc": 12, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "1923", "gold": "1770"}
+{"doc": 12, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "1923", "gold": "1770"}
+{"doc": 13, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "approximately 80,000", "gold": "80,000"}
+{"doc": 13, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Many", "gold": "80,000"}
+{"doc": 13, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Many", "gold": "80,000"}
+{"doc": 14, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Three", "gold": "on three grounds"}
+{"doc": 14, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Two", "gold": "on three grounds"}
+{"doc": 14, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Two", "gold": "on three grounds"}
+{"doc": 15, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Geordie", "gold": "Geordie"}
+{"doc": 15, "rate": 0.5, "filter": "random", "em": 1.0, "ans": "Geordie", "gold": "Geordie"}
+{"doc": 15, "rate": 0.3, "filter": "random", "em": 1.0, "ans": "Geordie", "gold": "Geordie"}
+{"doc": 16, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "to remind their countrymen of injustice", "gold": "a way of continuing their protest"}
+{"doc": 16, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "For the sake of maintaining the spirit of protest.", "gold": "a way of continuing their protest"}
+{"doc": 16, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "For the sake of maintaining the spirit of protest.", "gold": "a way of continuing their protest"}
+{"doc": 17, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "June 1526", "gold": "The Black Cloister"}
+{"doc": 17, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "December 1527", "gold": "The Black Cloister"}
+{"doc": 17, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "December 1527", "gold": "The Black Cloister"}
+{"doc": 18, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "First appearance of an SNP majority government.", "gold": "a party has commanded a parliamentary majority"}
+{"doc": 18, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "The SNP's first majority government occurred when they won 16 seats from Labour.", "gold": "a party has commanded a parliamentary majority"}
+{"doc": 18, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "The SNP's first majority government occurred when they won 16 seats from Labour.", "gold": "a party has commanded a parliamentary majority"}
+{"doc": 19, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "Packet Switching Methodology", "gold": "independently developed the same message routing methodology as developed by Bar"}
+{"doc": 19, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Packet Switching Network", "gold": "independently developed the same message routing methodology as developed by Bar"}
+{"doc": 19, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Packet Switching Network", "gold": "independently developed the same message routing methodology as developed by Bar"}
+{"doc": 20, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "algae", "gold": "cryptomonads"}
+{"doc": 20, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "algae", "gold": "cryptomonads"}
+{"doc": 20, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "algae", "gold": "cryptomonads"}
+{"doc": 21, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "early 1520s", "gold": "early 1526"}
+{"doc": 21, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "1524", "gold": "early 1526"}
+{"doc": 21, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "1524", "gold": "early 1526"}
+{"doc": 22, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "pharma", "gold": "its root word pharma"}
+{"doc": 22, "rate": 0.5, "filter": "random", "em": 1.0, "ans": "pharmakos", "gold": "its root word pharma"}
+{"doc": 22, "rate": 0.3, "filter": "random", "em": 1.0, "ans": "pharmakos", "gold": "its root word pharma"}
+{"doc": 23, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "1928", "gold": "1928"}
+{"doc": 23, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "1924", "gold": "1928"}
+{"doc": 23, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "1924", "gold": "1928"}
+{"doc": 24, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "ABC pioneered a balanced approach to programming, presenting both film and TV co", "gold": "counterprogramming"}
+{"doc": 24, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "ABC and Goldenson pioneered a balanced approach to television programming that i", "gold": "counterprogramming"}
+{"doc": 24, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "ABC and Goldenson pioneered a balanced approach to television programming that i", "gold": "counterprogramming"}
+{"doc": 25, "rate": 0.7, "filter": "random", "em": 0.0, "ans": "Hollow tubes", "gold": "enzymes"}
+{"doc": 25, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Hollow tubes", "gold": "enzymes"}
+{"doc": 25, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Hollow tubes", "gold": "enzymes"}
+{"doc": 26, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Chinese", "gold": "the Chinese"}
+{"doc": 26, "rate": 0.5, "filter": "random", "em": 1.0, "ans": "Chinese", "gold": "the Chinese"}
+{"doc": 26, "rate": 0.3, "filter": "random", "em": 1.0, "ans": "Chinese", "gold": "the Chinese"}
+{"doc": 27, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "1523", "gold": "1523"}
+{"doc": 27, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "1524", "gold": "1523"}
+{"doc": 27, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "1524", "gold": "1523"}
+{"doc": 28, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Lens-shaped", "gold": "lens-shaped"}
+{"doc": 28, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "cup", "gold": "lens-shaped"}
+{"doc": 28, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "cup", "gold": "lens-shaped"}
+{"doc": 29, "rate": 0.7, "filter": "random", "em": 1.0, "ans": "Han Chinese", "gold": "Han Chinese"}
+{"doc": 29, "rate": 0.5, "filter": "random", "em": 0.0, "ans": "Han", "gold": "Han Chinese"}
+{"doc": 29, "rate": 0.3, "filter": "random", "em": 0.0, "ans": "Han", "gold": "Han Chinese"}

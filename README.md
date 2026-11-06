@@ -116,8 +116,10 @@ compression for zero data loss on surprises, which is the right default.
 ### Cascade and downstream (results/rules_cascade.json, results/qa_em.jsonl)
 
 - Rule-based hand filter (13 regexes, the thing an engineer writes today):
-  see results/rules_cascade.json. Cheap to write for known formats, blind
-  to everything else - exactly the trade-off this project quantifies.
+  keep-F1 0.75 on UNSEEN tool families vs the HMM's 0.10. Hand rules encode
+  structure that transfers (progress bars look the same everywhere); the
+  learned filter's features don't. On SEEN formats the learned filter wins
+  and compresses 3x harder. Honest synthesis: ship rules + HMM together.
 - Cascade HMM -> perplexity on SQuAD: retention@50% 0.457 vs ppl-only
   0.560 vs hmm-only@70% 0.659. On clean prose the stage-0 errors dominate;
   a cascade only pays on noisy streams where stage-0 recall is ~1.

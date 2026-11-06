@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/dev-v1.1.json
+HF_HOME/

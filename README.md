@@ -105,10 +105,16 @@ logfmt, CSV, YAML, prose) instead of per-tool. Leave-one-format-out:
 | HMM, +7 format features | 0.504 | JSON 0.61, CSV still 0.00 |
 | logreg, +7 format features | 0.569 | JSON 0.75, CSV still 0.00 |
 | parse-then-filter (safe fallback) | 0.559 | CSV 0.86, nothing ever lost |
+| distilled distilbert + logreg head (zero-shot here) | 0.749 | CSV 0.81 - semantics generalize |
+
 
 Verdict: format-aware training helps when formats share structure (JSON
 jumped 0.19 -> 0.61), but a held-out format with no structural analogue
-(CSV data rows) still collapses. The robust answer is the user's second
+(CSV data rows) still collapses for STYLISTIC filters. The frozen-distilbert
+line classifier solves it (0.75 mean, CSV 0.81) - semantic features
+generalize - at ~1000x the per-line cost (51 vs 55,000 lines/sec) and it
+still loses to hand rules on unseen tool families (0.42 vs 0.75 keep-F1,
+results/distilbert.json). The robust answer is the user's second
 idea: parse first, then filter - detect the format, apply the per-format
 policy, and keep everything when the format is unknown. That trades
 compression for zero data loss on surprises, which is the right default.
@@ -155,7 +161,9 @@ compression on what survives, on corpora where that pays.
 
 ## Not done yet / future work
 
-- CRF and distilled-BERT line classifiers (stronger learned baselines).
+- CRF baseline (between HMM and distilbert in the cost/quality space).
+- Fine-tuned (not frozen) distilbert; distilled model trained on the
+  format corpus too (here it was zero-shot on formats and still won).
 - Loghub/Drain real-log corpus; MCP-Universe end-to-end replay
   (task success, tokens saved p50/p90, expand rate) - needs real agent
   sessions, which this sandbox does not have.
